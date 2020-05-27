@@ -39,4 +39,4 @@ As I do not have a World of Warcraft Classic installation I cannot upload the Ca
 I have no experience with PowerShell so the upload script was done by googling every single step and hoping that the syntax is as close as possible to Bash so I'm sure this can be improved by somoneone with better knowledge.
 
 ## Feedback
-Feedback is welcome, mainly during this is in its initial stages and is not properly tested yet.
+Feedback is welcome, mainly during this period since this is in its initial stages and is not properly tested yet.
