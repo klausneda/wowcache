@@ -17,14 +17,20 @@ Run the Download.sh script before launching World of Warcraft.
 Preferably configure your runner to run the script before launching the game.
 
 ## Usage - Windows Users
-Fork or request commit access to this repository. Ideally people should be able to rely on a single repository that is reliably updated.
+Request commit access to this repository or fork it for your own use. Ideally people should be able to rely on a single repository that is reliably updated.
 
 1. Open Task Scheduler.
 2. Click Create Task in the Actions panel.
 3. Add a sensible name to your task.
 4. In the Triggers tab add a new Trigger on a Dialy/Weekly/Monthly schedule and set an hour when you expect to have your machine running.
-5. In the Actions tab add a new Action to Start a program. Fill the **Program/script field** with the full path to the Upload.ps1 script in your repository. Fill  the **Add arguments (optional)** field with the full path to the World of Warcraft root instalation directory.
-
+5. In the **Actions** tab add a new Action to Start a program.
+   In the **Program/script** field add:
+   
+   <pre><code>powershell</code></pre>
+   
+   In the **Add arguments (optional)** field add:
+   <pre><code>-Command &{full_path_to_upload_script -path 'full_path_to_wow_install_dir'}</code></pre>
+   
 Now you will upload the Cache content every time you are logged into your machine within the selected time period.
 
 ## Contributions
