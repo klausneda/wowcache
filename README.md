@@ -10,7 +10,7 @@ This repository contains World of Warcraft Cache directory content generated on 
 * Download.sh is a Bash script that can be used to pull the latest  changes.
 
 ## Prerequisites
-git and openssh. Nothing else I could think of as right now.
+git and openssh. Nothing else I could think of right now.
 
 ## Usage Linux Users
 Run the Download.sh script before launching World of Warcraft.
